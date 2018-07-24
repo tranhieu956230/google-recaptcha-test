@@ -21,7 +21,7 @@ app.post('/submit', (req, res) => {
     }
   
     else {
-        const secret = '6LdWxmUUAAAAAKVeV8zA-QA02rA6GltE5vTmavzg';
+        const secret = '6LeZ-2UUAAAAAEVGG-R71tKFZzRYMDy8JtARBddi';
         const response = req.body.captcha;
         const remoteip = req.connection.remoteAddress;
 
